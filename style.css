@@ -1,0 +1,105 @@
+@import url("https://fonts.googleapis.com/css2?family=Lexend+Deca&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700&family=Lexend+Deca&display=swap");
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+h1 {
+  font-family: "Big Shoulders Display", cursive, "Lexend Deca", sans-serif;
+  color: rgba(255, 255, 255, 0.75);
+  text-transform: uppercase;
+  font-weight: 700;
+  margin-top: 23px;
+}
+
+p {
+  font-family: "Lexend Deca", sans-serif;
+  font-weight: 400;
+  color: rgba(255, 255, 255, 0.75);
+  font-size: 12px;
+  margin-top: 30px;
+  line-height: 19px;
+}
+
+.btn {
+  font-family: "Lexend Deca", sans-serif;
+  font-weight: 600;
+  margin-top: 36px;
+  padding: 11px 30px;
+  border-radius: 35px;
+  border: none;
+  -webkit-transition-duration: 0.4s;
+          transition-duration: 0.4s;
+  cursor: pointer;
+}
+
+body {
+  background-color: #f2f2f2;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body .container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  margin: 40px 34px 12px 30px;
+  height: 1090px;
+  border-radius: 15px;
+}
+
+body .container .sedans {
+  background-color: #e38826;
+  height: 34%;
+  padding: 35px;
+  border-radius: 13px 13px 0px 0px;
+}
+
+body .container .sedans .btn {
+  color: #e38826;
+}
+
+body .container .sedans .btn:hover {
+  background-color: #e38826;
+  color: #f2f2f2;
+  border: 2px solid #f2f2f2;
+}
+
+body .container .suvs {
+  background-color: #006970;
+  height: 34%;
+  padding: 35px;
+}
+
+body .container .suvs .btn {
+  color: #006970;
+}
+
+body .container .suvs .btn:hover {
+  background-color: #006970;
+  color: #f2f2f2;
+  border: 2px solid #f2f2f2;
+}
+
+body .container .luxury {
+  background-color: #004241;
+  height: 34%;
+  padding: 35px;
+  border-radius: 0px 0px 13px 13px;
+}
+
+body .container .luxury .btn {
+  color: #004241;
+}
+
+body .container .luxury .btn:hover {
+  background-color: #004241;
+  color: #f2f2f2;
+  border: 2px solid #f2f2f2;
+}
+/*# sourceMappingURL=style.css.map */

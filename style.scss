@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css2?family=Lexend+Deca&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700&family=Lexend+Deca&display=swap');
+
+$lexend: 'Lexend Deca', sans-serif;
+$big_shoulder:'Big Shoulders Display', cursive,'Lexend Deca', sans-serif;;
+
+
+$orange: hsl(31, 77%, 52%);
+$dark_cyan: hsl(184, 100%, 22%);
+$very_dark_cyan: hsl(179, 100%, 13%);
+
+$trans_white: hsla(0, 0%, 100%, 0.75);
+$light_gray: hsl(0, 0%, 95%);
+$height: 34%;
+$pad: 35px;
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+
+h1{
+    font-family: $big_shoulder;
+    color: $trans_white;
+    text-transform: uppercase;
+    font-weight: 700;
+    margin-top: 23px;
+}
+
+p{
+    font-family: $lexend;
+    font-weight: 400;
+    color: $trans_white;
+    font-size: 12px;
+    margin-top: 30px;
+    line-height: 19px;
+}
+
+.btn{
+    font-family: $lexend;
+    font-weight: 600;
+    margin-top: 36px;
+    padding: 11px 30px;
+    border-radius: 35px;
+    border: none;
+    transition-duration: 0.4s;
+    cursor: pointer;
+}
+
+
+
+body{
+    background-color: $light_gray;
+    box-sizing: border-box;
+    .container{
+        display: flex;
+        flex-direction: column;
+        margin: 40px 34px 12px 30px;
+        height: 1090px;
+        border-radius: 15px;
+        .sedans{
+            background-color: $orange;
+            height: $height;
+            padding: $pad;
+            border-radius: 13px 13px 0px 0px;
+            .btn{
+                color: $orange;
+                &:hover {
+                    background-color: $orange;
+                    color: $light_gray;
+                    border: 2px solid $light_gray;
+                }
+            }
+        }
+        .suvs{
+            background-color: $dark_cyan;
+            height: $height;
+            padding: $pad;
+            .btn{
+                color: $dark_cyan;
+                &:hover {
+                    background-color: $dark_cyan;
+                    color: $light_gray;
+                    border: 2px solid $light_gray;
+                }
+            }
+        }
+        .luxury{
+            background-color: $very_dark_cyan;
+            height: $height;
+            padding: $pad;
+            border-radius:  0px 0px 13px 13px;
+            .btn{
+                color: $very_dark_cyan;
+                &:hover {
+                    background-color: $very_dark_cyan;
+                    color: $light_gray;
+                    border: 2px solid $light_gray;
+                }
+            }
+        }
+    }
+}
