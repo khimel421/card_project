@@ -102,4 +102,27 @@ body .container .luxury .btn:hover {
   color: #f2f2f2;
   border: 2px solid #f2f2f2;
 }
+
+@media screen and (min-width: 720px) {
+  body .container {
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    width: 745px;
+    margin: 30px auto;
+    height: 370px;
+  }
+  body .container .sedans {
+    height: 81%;
+    border-radius: 13px 0px 0px 13px;
+  }
+  body .container .suvs {
+    height: 81%;
+  }
+  body .container .luxury {
+    height: 81%;
+    border-radius: 0px 13px 13px 0px;
+  }
+}
 /*# sourceMappingURL=style.css.map */
