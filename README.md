@@ -1,5 +1,7 @@
 # Frontend Mentor - 3-column preview card component
 
+website preview - https://khimel421.github.io/card_project/
+
 ![Design preview for the 3-column preview card component coding challenge](./design/desktop-preview.jpg)
 
 ## Welcome! 👋
